@@ -21,7 +21,8 @@
             @include('incs.navbar')
 
             <main class="container-fluid" style="margin : 180px 0 120px 0;">
-                
+
+                    <!-- Modal block to alert the user of his last action before deleting something -->
                     <div class="container justify-content-center mt-5">
                         @include('incs.flash')
                     </div>
